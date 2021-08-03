@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  /* width: 50%; */
+  border: 10px solid black;
+}
+
+#numContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  font-size: 30px;
+}
+
+button {
+  background: black;
+  color: white;
+}
+
+#sum-el {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#buttons-div {
+  margin-top: 50px;
+  align-self: center;
+}
+
+#sum-el {
+  align-self: center;
+}
